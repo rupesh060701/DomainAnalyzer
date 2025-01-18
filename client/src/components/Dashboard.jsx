@@ -25,7 +25,7 @@ const Dashboard = () => {
     // Fetch paginated data with optional search filter
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/api/domains`, {
+            .get(`https://domainanalyzerbackend.onrender.com/api/domains`, {
                 params: {
                     page: currentPage,
                     limit: perPage,
