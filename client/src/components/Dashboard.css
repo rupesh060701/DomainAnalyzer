@@ -1,0 +1,134 @@
+/* Dashboard container */
+.dashboard {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.dashboard-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #6366f1;
+  
+}
+.dashboard-title {
+    text-align: center;
+    font-size: 24px;
+   
+}
+.s-logo{
+    
+    display: flex;
+    align-items: center;
+}
+
+.s-logo>img{
+    width: 3rem;
+    border-radius: 1rem;
+}
+.s-logo>span{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.s-dot{
+    color: red;
+    font-size: 0.5rem;
+}
+
+.table_functinality{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar{
+    padding-right: 2rem;
+    border: 2px solid rgb(173, 163, 163);
+    width: 70%; 
+}
+
+.sort-icon{
+    width: 20px;
+}
+.table-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+
+
+.sort-dropdown{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.sort-dropdown>label{
+    font-weight: 500;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    border: 2px solid rgb(168, 158, 158);
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #6365f194;
+    color: #333;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.data-table td {
+    color: #555;
+    font-size: 14px;
+}
+
+.data-table td:nth-child(4),
+.data-table td:nth-child(5),
+.data-table td:nth-child(6) {
+    color: rgba(255, 0, 0, 0.616);
+    font-weight: bold;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+button,select{
+    width: 100px;
+    padding: 10px;
+    background-color: #6366f1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
