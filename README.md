@@ -16,6 +16,10 @@ Domains Analyzer is a web-based application that allows users to manage and anal
 
 ---
 
+![Alt text](client/public/ful1.png)
+![Alt text](client/public/ful2.png)
+
+
 ## Technologies Used
 
 ### Frontend
